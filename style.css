@@ -1,0 +1,17 @@
+body {
+    
+    font-family: 'Lobster', cursive;
+}
+#bg-img {
+    background: url("https://www.gamerlife.online/wp-content/uploads/2019/06/gettyimages-655977302.jpg");
+    background-size: 100%;
+    min-height: 500px;
+    background-repeat:no-repeat;
+}
+#social {
+    background-color:rgb(10, 119, 10);
+}
+#contact {
+    background-image: url("https://thumbs.dreamstime.com/b/green-binary-code-bg-coding-hacking-concept-digital-dark-background-computer-network-programming-140154198.jpg");
+    color:white;
+}

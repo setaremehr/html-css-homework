@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>My Portfolio Website</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="header">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-light" style="background-color:#067a32;">
+            <div class="container">
+                <button class="navbar-toggler" data-toggle="collaps" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" class="navbar-brand">
+                    <h3>Setare Mehr</h3>
+                </a>
+                <div class="collaps navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#About" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="# portfolio" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+    <!-- bgc img -->
+    <div id="bg-img" class="img-fluid"></div>
+
+    <!-- About me -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="AboutData">
+                        <div class="card bg-white">
+                            <div class="card-title my-5">
+                                <div class="media">
+                                    <img src="377A06B0-1F13-4156-BC1D-BF8EC278F8BC_1_105_c.jpeg" alt="pic of me" width="250px" height="250px"
+                                        class="img-fluid rounded-top mx-5" />
+                                    <div class="media-body">
+                                        <h3 class="display-5 ml-3 ">I'm Setare Mehr</h3>
+                                        <p class="text-muted ml-3">will be a Programmer </p>
+                                        <div class="container">
+                                            <p class="display-5 mr-5">Lorem ipsum dolor sit amet, consectetur
+                                                adipisicing elit. Officia perferendis earum fuga quidem possimus, facere
+                                                totam eligendi illum recusandae placeat obcaecati iure. Soluta,
+                                                dignissimos consequuntur quas ea porro id voluptas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+       <!-- portfolio -->
+        <div id=" portfolio" class="p-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 my-3">
+                        <img src="https://files.realpython.com/media/How-to-Make-a-Discord-Bot-With-Python_Watermarked.23887eee3226.jpg"
+                            class="img-fluid rounded" alt="some computer stuff with a woman" />
+                        <h1 class="my-3"> project 1</h1>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vero
+                            deserunt architecto ipsam aperiam fuga.</p>
+                    </div>
+                    <div class="col-sm-6 my-3">
+                        <img src="https://online.pointpark.edu/wp-content/uploads/Communication-at-Work-header-PPU.png"
+                            class="img-fluid rounded" alt="two monitors with two people " />
+                        <h1 class="my-3"> project 2</h1>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vero
+                            deserunt architecto ipsam aperiam fuga.</p>
+                    </div>
+                    <div class="col-sm-6 my-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQBoHbqLy4NncHfg4EW1PcXdxb7fnzY_7Lr2Q&usqp=CAU"
+                            class="img-fluid rounded" alt="a factory like camputer" />
+                        <h1 class="my-3"> project 3</h1>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vero
+                            deserunt architecto ipsam aperiam fuga.</p>
+                    </div>
+                    <div class="col-sm-6 my-3">
+                        <img src="https://newsignature.com/wp-content/uploads/2017/02/project-management-1024x512.png"
+                            class="img-fluid rounded" alt="some people gathering around a table and talking" />
+                        <h1 class="my-3"> project 4</h1>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi vero
+                            deserunt architecto ipsam aperiam fuga.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <form >
+            <div class="form-group mx-2">
+                <label for="email">Name:</label>
+                <input type="text" class="form-control" placeholder="Name" id="name">
+            </div>
+            <div class="form-group mx-2">
+                <label for="pwd">Email address:</label>
+                <input type="email" class="form-control" placeholder="Example@gmail.com" id="pwd">
+            </div>
+            <div class="form-group mx-2">
+                <label for="pwd">Message</label>
+                <textarea class="form-control" placeholder="write something for me"></textarea>
+            </div>
+            <div class="form-group form-check">
+
+            </div>
+            <button type="submit" class="btn btn-succcess text-white">Submit</button>
+        </form>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-success cyan darken-3">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright
+
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
