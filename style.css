@@ -1,17 +1,28 @@
 body {
-    
-    font-family: 'Lobster', cursive;
+    background: url("https://s3.envato.com/files/243215486/preview.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Rowdies', cursive;
+    /* font-size: 40px; */
 }
 #bg-img {
-    background: url("https://www.gamerlife.online/wp-content/uploads/2019/06/gettyimages-655977302.jpg");
-    background-size: 100%;
-    min-height: 500px;
-    background-repeat:no-repeat;
+    background:url("https://s3.envato.com/files/243215486/preview.jpg");
+    /* background-size: cover; */
+    /* min-height: 500px; */
+    /* background-repeat:no-repeat; */
 }
-#social {
-    background-color:rgb(10, 119, 10);
+
+
+#Navbar {
+    font-size: 20px;
+    font-weight: bolder;
+    /* font-family: 'Lobster', cursive; */
+    color:rgb(12, 2, 2);
 }
-#contact {
-    background-image: url("https://thumbs.dreamstime.com/b/green-binary-code-bg-coding-hacking-concept-digital-dark-background-computer-network-programming-140154198.jpg");
-    color:white;
+#Navbar a:hover {
+    background-color: rgba(122, 115, 115, 0.295);
+}
+#footer {
+    background-color: #333333;
 }
